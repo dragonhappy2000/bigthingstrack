@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-09-03 00:29:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">腾讯 马化腾 微信 ！价格</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BA%BA%E5%8E%BB%E4%B8%96%E4%BA%86%E6%9C%8B%E5%8F%8B%E5%9C%88%E4%BC%9A%E6%B6%88%E5%A4%B1%EF%BC%9F%E5%BE%AE%E4%BF%A1%E5%9B%9E%E5%BA%94" target="_blank" class="news-link">人去世了朋友圈会消失？微信回应</a> [13] <font color='grey'>- 00时29分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2223636" target="_blank" class="news-link">你用微信发live图了吗</a> [13] <font color='grey'>- 00时29分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E8%83%BD%E5%8F%91live%E5%9B%BE%E4%BA%86" target="_blank" class="news-link">微信聊天能发live图了</a> [30] <font color='grey'>- 00时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">比亚迪 王传福 腾势 仰望 ！价格</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2133802" target="_blank" class="news-link">车企半年报：七成车企实现盈利 比亚迪营收破3000亿元、江淮扣非净利降超1000%</a> [7] <font color='grey'>- 00时29分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2133723" target="_blank" class="news-link">长期诋毁比亚迪，自媒体“龙猪-集车”被判赔201.87万元</a> [12] <font color='grey'>- 00时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">苹果 库克 iphone ！水果 ！价格</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2223109" target="_blank" class="news-link">苹果AirPods Pro 3耳机前瞻</a> [18] <font color='grey'>- 00时29分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23iPhone17Pro%E6%B6%A8%E4%BB%B7%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523iPhone17Pro%25E6%25B6%25A8%25E4%25BB%25B7%2523%26filter_type%3Drealtimehot%26band_rank%3D28%26c_type%3D31%26dgr%3D0%26cate%3D5001%26flag%3D1%26lcate%3D5001%26stream_entry_id%3D31%26pos%3D27%26realpos%3D28%26display_time%3D1756829559%26pre_seqid%3D175682955989904138765135" target="_blank" class="news-link">iPhone17Pro涨价</a> [28] <font color='grey'>- 00时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">ai 人工智能 大模型</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31514936" target="_blank" class="news-link">十年路线图出炉，国家“人工智能+”战略指向何方？</a> [15] <font color='grey'>- 00时29分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28344668&amp;amp;topic_name=%E7%BD%97%E4%BC%AF%E7%89%B9ai%E6%88%90%E7%B2%BE%2C%E9%9B%86%E7%BE%8E%E9%9B%86%E4%BD%93%E6%80%A5%E7%9C%BC" target="_blank" class="news-link">罗伯特ai成精,集美集体急眼</a> [26] <font color='grey'>- 00时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">小米 雷军 xiaomi 小米汽车 ！食物 ！价格</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3754746" target="_blank" class="news-link">AH股集体调整，创业板跌2.85%，CPO等AI硬件股大幅下跌，恒科指跌超1%，小米逆势涨超3%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">马斯克 特斯拉 Grok SpaceX</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3754749" target="_blank" class="news-link">特斯拉“宏图计划4”发布：大规模地将AI融入物理世界，未来80%的价值在于机器人</a> [8] <font color='grey'>- 00时29分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">智能终端 具身智能机器人 低空经济</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31514895" target="_blank" class="news-link">新质观察｜低空经济发展初期不宜过度标准化</a> [18] <font color='grey'>- 00时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
